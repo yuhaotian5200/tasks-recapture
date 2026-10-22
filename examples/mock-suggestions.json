@@ -1,0 +1,47 @@
+{
+  "origin": "mock-script",
+  "suggestions": [
+    {
+      "action": "add",
+      "title": "Draft the November garden newsletter",
+      "why": "The person asked for a November garden newsletter and said not to start until the plant list arrives.",
+      "stop": "The draft has not been started. It was set aside until the plant list arrives.",
+      "resume_when": "The plant list arrives.",
+      "proposed_status": "paused",
+      "existing_id": null,
+      "evidence": [
+        {
+          "quote": "Let's draft the November garden newsletter once the plant list arrives."
+        }
+      ]
+    },
+    {
+      "action": "ignore",
+      "title": "Redesign the community website",
+      "why": "The website idea came from the assistant and the person rejected it.",
+      "stop": "",
+      "resume_when": "",
+      "proposed_status": "not_started",
+      "ignore_reason": "The website redesign was not adopted.",
+      "evidence": [
+        {
+          "quote": "No website redesign."
+        }
+      ]
+    },
+    {
+      "action": "ignore",
+      "title": "Send the watering reminder",
+      "why": "The transcript says this reminder was already sent.",
+      "stop": "",
+      "resume_when": "",
+      "proposed_status": "not_started",
+      "ignore_reason": "The watering reminder is already finished in the transcript, so it is not open work.",
+      "evidence": [
+        {
+          "quote": "The watering reminder was already sent this morning, so that one is finished."
+        }
+      ]
+    }
+  ]
+}

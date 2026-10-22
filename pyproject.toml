@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tasks-recapture"
+version = "0.1.0"
+description = "Recover unfinished tasks from AI chat transcripts into local Markdown cards."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "yuhaotian5200"}]
+keywords = ["tasks", "transcripts", "cli"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/yuhaotian5200/tasks-recapture"
+Source = "https://github.com/yuhaotian5200/tasks-recapture"
+
+[project.scripts]
+tasks-recapture = "tasks_recapture.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

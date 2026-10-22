@@ -1,0 +1,19 @@
+{
+  "origin": "mock-script",
+  "suggestions": [
+    {
+      "action": "add",
+      "title": "Write the November garden newsletter",
+      "why": "The person says the plant list has arrived and asks to pick the newsletter draft back up.",
+      "stop": "The plant list has arrived, so the draft can be picked up.",
+      "resume_when": "The plant list arrives.",
+      "proposed_status": "in_progress",
+      "existing_id": null,
+      "evidence": [
+        {
+          "quote": "Please pick up the November garden newsletter draft."
+        }
+      ]
+    }
+  ]
+}
